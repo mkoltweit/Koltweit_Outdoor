@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--
+        Michelle Koltweit
+        Mic2195336
+        CIS233DA-#28660
+    -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Greywood Trails Outdoor Adventures Store Page">
+    <meta name="keywords" content="Greywood, Trails, Outdoor, Adventures, Camping, Kayaking, Hiking, Park, Affordable, Family, Fun, Store, Thermos, Walkie Talkies, Backpack">
+    <title>Store</title>
+    <link rel="stylesheet" type="text/css" href="styles/outdoor.css">
+    <link rel="icon" href="favicon_io/favicon-16x16.png" type="image/png" sizes="16x16">
+</head>
+<body>
+    <div id="wrapper">
+
+        <div class="header">
+            <!--header begins-->
+            <header>
+                <a href="index.html" id="logo"><img src="images/GTO_Logo.png" height="95" width="250" alt="Greywood Trails Outdoor Adventures Logo"></a>       
+                <!--horizonatal navigation-->
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="activities.html">Activities</a></li>
+                        <li><a class="active" href="store.html">General Store</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="design.html">Design</a></li>
+                    </ul>
+                <!--horizonatal navigation ends-->
+                </nav>
+            <!--header ends-->
+            </header>
+        <!--header div ends-->
+        </div>
+
+        <!--main begins-->
+        <main>           
+            <div id="headerImageSmall">
+                <h1>General Store</h1>
+            </div>
+
+            <div class="storeDesc">
+                <p>Greywood Trails offers supplies for some of your outdoor needs. Free shipping is available for all items.</p>
+            </div>
+
+            <div class="cart">
+<!-- h2 changed
+<h2>Steamers Coffee Shop</h2> -->
+                <div class="item">
+                    <!--item image-->
+                    <img class="leftfloat" src="images/thermos.jpg" alt="Outdoor Thermos" height="300" width="300" />
+                    <!--h3 element-->
+                    <h3>Thermos</h3>
+                    <!--item description-->
+                    <p>This 24 oz thermos will keep your beverages hot or cold for up to 8 hours. $24.95</p>
+                        <!--form with server-side script-->
+                        <form method="post" action="https://secure.riosalado.edu/cis-course-resources/postscript.aspx">
+                            <input type="hidden" name="desc1" id="desc1" value="Thermos">
+                            <input type="hidden" name="cost1" id="cost1" value="24.95">
+                            <!--add to cart button-->
+                            <input class="cartButton" type="submit" value="Add to Cart">
+                        </form>
+                        <!--line break with clear class-->
+                </div>
+                <br class="clear" />
+
+                <div class="item">
+                    <!--item image-->
+                    <img class="leftfloat" src="images/hikingBackpack.jpg" alt="Hiking Backpack" height="300" width="300" />
+                    <!--h3 element-->
+                    <h3>Hiking Backpack</h3>
+                    <!--item description-->
+                    <p>Our rugged hiking backpack is perfect for all of your gear.  $41.99
+                    </p>
+                    <!--form with server-side script-->
+                    <form method="post" action="https://secure.riosalado.edu/cis-course-resources/postscript.aspx">
+                        <input type="hidden" name="desc2" id="desc2" value="Hiking Backpack">
+                        <input type="hidden" name="cost2" id="cost2" value="41.99">
+                        <!--add to cart button-->
+                        <input class="cartButton" type="submit" value="Add to Cart">
+                    </form>
+                </div>
+                <!--line break with clear class-->
+                <br class="clear" />
+
+                <div class="item">
+                    <!--item image-->
+                    <img class="leftfloat" src="images/walkieTalkie.jpg" alt="Walkie Talkies" height="300" width="300" />
+                    <!--h3 element-->
+                    <h3>Walkie Talkie</h3>
+                    <!--item description-->
+                    <p>This set of walkie talkies has a wide range of 2 miles. $49.95
+                    </p>
+                    <!--form with server-side script-->
+                    <form method="post" action="https://secure.riosalado.edu/cis-course-resources/postscript.aspx">
+                        <input type="hidden" name="desc3" id="desc3" value="Walkie Talkies">
+                        <input type="hidden" name="cost3" id="cost3" value="49.95">
+                        <!--add to cart button-->
+                        <input class="cartButton" type="submit" value="Add to Cart">
+                    </form>
+                </div>
+                <!--line break with clear class-->
+                <br class="clear" />
+            </div>
+
+
+        <!--main ends-->    
+        </main>
+
+        <!--footer begins-->
+        <footer>
+            Copyright &copy; 2021 Greywood Trails Outdoor Adventures<br>
+            <a href="mailto:mic2195336@maricopa.edu"><i>mic2195336@maricopa.edu</i></a><br>
+            <a href="https://twitter.com/?lang=en"  target="_blank"><img class="icon" src="images/twitter.png" alt="Twitter Icon" /></a>
+            <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                <img class="icon"
+                    src="https://www.w3.org/html/logo/badge/html5-badge-h-css3-semantics.png"
+                    alt="Valid CSS!" />
+            </a>       
+        </footer>
+        <!--footer ends-->
+
+    <!--wrapper div ends-->    
+    </div>
+   
+</body>
+</html>
